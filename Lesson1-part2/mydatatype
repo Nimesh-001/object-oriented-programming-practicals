@@ -1,1 +1,22 @@
+public class mydatatype{
+
+	public static void main(String[] args){
+
+		short w,x=10;
+		int z,y=50;
+
+		z=x;
+		w=(short)y;
+
+		double d=25.3456;
+		int p=(int)d;
+
+		System.out.println(p);
+
+		char c='A';
+		int e=c;
+
+		System.out.println(e);
+	}
+}
 
