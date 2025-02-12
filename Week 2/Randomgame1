@@ -1,0 +1,34 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class randomgame{
+
+	public static void main(String[] args){
+	
+		Scanner input= new Scanner(System.in);
+		Random random= new Random();
+		char uchoice;
+
+
+		do{
+			int rnum=random.nextInt(100);
+			System.out.print("enter your guess(1-100): ");
+			
+			int unum=input.nextInt();
+
+			if(unum==rnum){
+				System.out.println("congratulation!, your answer is correct");			
+			}
+			else{
+				System.out.println("sorry!, you are wrong.");
+			}
+
+			System.out.print("do you want to play again?(y/n): ");
+			uchoice=input.next().charAt(0);
+		
+		
+		}while(uchoice=='y' || uchoice=='Y');
+
+		System.out.println("bye! thanks for playing");
+	}
+}
