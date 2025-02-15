@@ -1,0 +1,19 @@
+
+
+public class Testemployee{
+
+	public static void main(String args[]){
+		Newemployee emp=new Newemployee();
+
+		System.out.println(emp.id);
+		System.out.println(emp.name);
+	}
+}
+
+
+public class Newemployee{
+
+	int id;
+	String name;
+
+}
