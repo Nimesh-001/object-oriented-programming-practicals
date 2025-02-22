@@ -1,0 +1,9 @@
+public class Vehicle{
+
+	protected double speed=40.0;
+	public void start(){
+		System.out.println("starting...");
+	}
+}
+
+//correctly work the programme.
