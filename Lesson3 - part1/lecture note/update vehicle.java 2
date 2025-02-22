@@ -1,0 +1,9 @@
+public class Vehicle{
+
+	private double speed=40.0;
+	public void start(){
+		System.out.println("starting...");
+	}
+}
+
+//compile error comes,
