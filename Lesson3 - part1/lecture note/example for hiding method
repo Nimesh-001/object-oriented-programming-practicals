@@ -1,0 +1,47 @@
+ class Vehicle{
+
+	protected double speed=40.0;
+	public void start(){
+		System.out.println("starting...");
+	}
+
+	public static void printtopspeed(){
+		System.out.println("top speed of vehicle is 50");
+	}
+}
+
+//
+//
+
+
+ class Car extends Vehicle{
+	
+	//@Override
+	//public void start(){
+	//	System.out.println("car is starting....");
+	//}
+
+	public void drive(){
+		System.out.println("driving...");
+	}
+
+	public static void printtopspeed(){
+		System.out.println("top speed of car is 300");
+	}
+}
+
+//
+//
+
+
+public class Vehicledemo{
+
+	public static void main(String args[]){
+		System.out.println("creating car....");
+		Car c= new Car();
+		c.start();
+		c.drive();
+		System.out.println(c.speed);
+		c.printtopspeed();
+	}
+}
