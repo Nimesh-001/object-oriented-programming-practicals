@@ -1,0 +1,16 @@
+public class Car extends Vehicle{
+	
+	@Override
+	public void start(){
+		System.out.println("car is starting....");
+		super.start();
+	}
+
+	public void drive(){
+		System.out.println("driving...");
+	}
+
+	public static void printtopspeed(){
+		System.out.println("top speed of car is 300");
+	}
+}
