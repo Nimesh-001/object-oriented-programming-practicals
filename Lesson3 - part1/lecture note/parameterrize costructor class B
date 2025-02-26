@@ -1,0 +1,6 @@
+class B extends A{
+
+	B(String s){
+		System.out.println("inside b's parameterize constructor");
+	}
+}
