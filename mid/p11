@@ -1,0 +1,6 @@
+public class B extends A{
+    public B(String s) {
+        System.out.println("inside b constructor");
+        System.out.println(s);
+    }
+}
