@@ -1,0 +1,15 @@
+public class Test1 {
+    private String name;
+    private int age;
+    private char gender;
+
+        public Test1() {
+            System.out.println("default constructor executed");
+            System.out.println("name: " + name + ", age : " + age + ", gender : " + gender);
+        }
+
+    public static void main(String[] args) {
+        Test1 t1=new Test1();
+    }
+    }
+
