@@ -1,0 +1,13 @@
+public class Student {
+    String name;
+    int id;
+
+    public void insertrecord(String s,int i){
+        name=s;
+        id=i;
+    }
+
+    public void display(){
+        System.out.println("student name: "+name+", student id: "+id);
+    }
+}
