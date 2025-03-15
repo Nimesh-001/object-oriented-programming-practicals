@@ -1,0 +1,19 @@
+public class Account {
+    int a,b;
+
+    public void setdata(int a,int b){
+        this.a=a;
+        this.b=b;
+    }
+
+    public void showdata(){
+        System.out.println("value of a= "+a);
+        System.out.println("value of b= "+b);
+    }
+
+    public static void main(String[] args) {
+        Account acc=new Account();
+        acc.setdata(2,3);
+        acc.showdata();
+    }
+}
