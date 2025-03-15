@@ -1,0 +1,13 @@
+public class Vehicle {
+
+   protected double speed=40.0;
+   protected String color="white";
+
+    public void start(){
+        System.out.println("starting........");
+    }
+
+    public static void printtopspeed(){
+        System.out.println("top speed of vehicle 50");
+    }
+}
