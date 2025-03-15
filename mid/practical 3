@@ -1,0 +1,12 @@
+public class Testemployee {
+    public static void main(String[] args) {
+        Employee emp=new Employee();
+
+        emp.id=101;
+        emp.name="Nimal";
+
+        System.out.println("employee id:"+emp.id+", employee name: "+emp.name);
+       // System.out.println(emp.id);
+       // System.out.println(emp.name);
+    }
+}
