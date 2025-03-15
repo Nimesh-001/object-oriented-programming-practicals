@@ -1,0 +1,21 @@
+public class Test2 {
+    private String name;
+    private int age;
+    private char gender;
+
+    public Test2() {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+
+        System.out.println("parameterlized constructor executed..");
+        System.out.println("name: "+name+",age: "+age+"gender: "+gender);
+
+
+    }
+
+    public static void main(String[] args) {
+        Test2 t2=new Test2();
+    }
+}
+
