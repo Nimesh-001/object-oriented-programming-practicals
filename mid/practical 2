@@ -1,0 +1,12 @@
+public class Teststudent {
+    public static void main(String[] args) {
+        Student stu1=new Student();
+        Student stu2=new Student();
+
+        stu1.insertrecord("saman",111);
+        stu2.insertrecord("amal",222);
+
+        stu1.display();
+        stu2.display();
+    }
+}
