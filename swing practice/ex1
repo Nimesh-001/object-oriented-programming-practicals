@@ -1,0 +1,39 @@
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class demo extends JFrame{
+    private JPanel main;
+    private JTextField textField1;
+    private JButton clickMeButton;
+
+    public demo() {
+        clickMeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(clickMeButton,textField1.getText()+" , Hello ");
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        demo demo = new demo();
+        demo.setSize(300,300);
+        demo.setVisible(true);
+        demo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        demo.setLocationRelativeTo(null);
+        demo.setTitle("Swing");
+        demo.setResizable(false);
+        demo.getContentPane().add(demo.main);
+        demo.pack();
+        demo.setVisible(true);
+        demo.setLocationRelativeTo(null);
+        demo.setTitle("Swing");
+        demo.setResizable(false);
+        demo.getContentPane().add(demo.main);
+        demo.pack();
+        demo.setVisible(true);
+
+        
+    }
+}
