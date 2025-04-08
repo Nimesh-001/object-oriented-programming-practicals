@@ -12,3 +12,8 @@ public class ex2 {
         }
     }
 }
+
+//Arithmetic Exception/ by zero
+//this is final block.....
+
+//Process finished with exit code 0
