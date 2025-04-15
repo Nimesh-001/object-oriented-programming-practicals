@@ -17,6 +17,15 @@ public class cal {
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                try {
+                    double num1 = Double.parseDouble(textField1.getText());
+                    double num2 = Double.parseDouble(textField2.getText());
+                    double answer =  num1 + num2;
+                    textField3.setText(String.valueOf(answer));
+                } catch (NumberFormatException ex) {
+                    JOptionPane.showMessageDialog(null, "Please enter a numeric value");
+                }
+
 
             }
         });
